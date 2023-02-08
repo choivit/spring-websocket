@@ -21,6 +21,10 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-websocket'
+    // rabbitMQ 사용시 추가
+    implementation 'org.springframework.boot:spring-boot-starter-amqp'
+    implementation 'org.springframework.boot:spring-boot-starter-reactor-netty'
+    //
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'

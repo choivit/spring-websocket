@@ -1,4 +1,4 @@
-package com.example.springwebsocket.chatSocketWithStomp;
+package com.example.springwebsocket.wsWithStompAddRabbitMQ;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
